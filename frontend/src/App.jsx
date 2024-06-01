@@ -17,6 +17,8 @@ import { SET_LOGIN } from "./redux/features/auth/authSlice";
 import AddProduct from "./pages/addProduct/AddProduct";
 import ProductDetail from "./components/product/productDetail/ProductDetail";
 import EditProduct from "./pages/editProduct/EditProduct";
+import ProductPage from "./pages/ProductPage/ProductPage";
+import SubcategoryPage from "./pages/SubcategoryPage/SubcategoryPage";
 
 
 axios.defaults.withCredentials = true;
@@ -59,18 +61,18 @@ function App() {
           }
         />
         <Route
-          path="/product-details"
+          path="/products"
           element={
               <Layout>
-                <ProductDetail />
+                <ProductPage />
               </Layout>
           }
         />
         <Route
-          path="/edit-product/:id"
+          path="/subcategory"
           element={
               <Layout>
-                <EditProduct />
+                <SubcategoryPage />
               </Layout>
           }
         />

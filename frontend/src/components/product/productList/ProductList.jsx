@@ -93,9 +93,7 @@ const ProductList = ({ products, isLoading }) => {
       </div>
       <hr />
       <div className="table">
-
-
-        {isLoading && <SpinnerImg />}
+        {/* {isLoading && <SpinnerImg />} */}
 
         <div className="table">
           {!isLoading && products.length === 0 ? (

@@ -14,12 +14,12 @@ const menu = [
   {
     title: "Subcategory",
     icon: <FaLayerGroup/>,
-    path: '/dashboard'
+    path: '/subcategory'
   },
   {
     title: "Products",
     icon: <FaCartPlus />,
-    path: "/dashboard",
+    path: "/products",
   },
 ];
 
