@@ -10,7 +10,7 @@
 
 ## Usage
 ```bash
-    git clone 
+    git clone https://github.com/Sam21sop/digitalflake-task.git
 ```
 
 ## Guide to Run Backend Server 
